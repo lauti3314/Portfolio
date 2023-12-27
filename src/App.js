@@ -1,12 +1,13 @@
 import './App.css';
-import styled, {ThemeProvider} from 'styled-components';
+import styled, { ThemeProvider } from 'styled-components';
 import { darkTheme } from './utils/theme';
 import Navbar from './components/NavBar';
 import Hero from './components/HeroSection';
 import Skills from './components/Skills';
 import Education from './components/Education';
+import { BrowserRouter as Router } from 'react-router-dom';
 
-const Body = styled.div `
+const Body = styled.div`
 background-color: ${({ theme }) => theme.bg};
 width: 100%;
 height: 100%;
@@ -20,14 +21,16 @@ const Wrapper = styled.div`
 function App() {
   return (
     <ThemeProvider theme={darkTheme}>
-      <Navbar />
-      <Body>
-        <Hero />
-        <Wrapper>
-        <Skills />
-        <Education />
-        </Wrapper>
-      </Body>
+      <Router>
+        <Navbar />
+        <Body>
+          <Hero />
+          <Wrapper>
+            <Skills />
+            <Education />
+          </Wrapper>
+        </Body>
+      </Router>
     </ThemeProvider>
   );
 }

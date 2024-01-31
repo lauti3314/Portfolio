@@ -32,6 +32,9 @@ function App() {
             <Skills />
           </Wrapper>
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
+          <Wrapper>
+            <Education />
+          </Wrapper>
         </Body>
       </Router>
     </ThemeProvider>

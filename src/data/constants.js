@@ -116,22 +116,22 @@ export const skills = [
             {
                 name: "VS Code",
                 image:
-                  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
-              },
-              {
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+            },
+            {
                 name: "Postman",
                 image:
-                  "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
-              },
-              {
+                    "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+            },
+            {
                 name: "Figma",
                 image:
-                  "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
-              },
-              {
+                    "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
+            },
+            {
                 name: "Jira",
                 image: "https://imgs.search.brave.com/jWTN7qaeLWRjRPSVyaZcZzE3uPAKPlHLFcLssPF2D2w/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9sb2dv/cy1tYXJxdWVzLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAy/Mi8wNy9BdGxhc3Np/YW4tTG9nby0yMDEw/czEtNTAweDMzOS5w/bmc",
-              },
+            },
         ],
     },
 ];
@@ -142,23 +142,67 @@ export const projects = [
     {
         id: 0,
         title: "Your Destiny",
-        date:"Jan 2023 - Feb 2023",
-        description:"Developed E-Commerce platform where you book hotels, pay via MercadoPago, and use a bilingual chatbot for assistance. Admins enjoy analytics on top-performing hotels, popular countries, and monthly reservations. Agile and responsive, with Google and guest login options.",
+        date: "Jan 2023 - Feb 2023",
+        description: "Developed E-Commerce platform where you book hotels, pay via MercadoPago, and use a bilingual chatbot for assistance. Admins enjoy analytics on top-performing hotels, popular countries, and monthly reservations. Agile and responsive, with Google and guest login options.",
         image: "",
-        tags: ["React Js", "JavaScript","Redux","PostgreSQL", "NodeJS", "Sequelize"],
+        tags: ["React Js", "JavaScript", "Redux", "PostgreSQL", "NodeJS", "Sequelize"],
         category: "Henry App",
-        github:"https://github.com/IgnacioPerezEtc/Proyecto-Final",
-        webapp:"https://proyecto-final-client.vercel.app/",
+        github: "https://github.com/IgnacioPerezEtc/Proyecto-Final",
+        webapp: "https://proyecto-final-client.vercel.app/",
     },
     {
-        id:1,
+        id: 1,
         title: "Dogs App",
         date: "Nov2022 - Dec 2022",
-        description:"Built a Dog Web app with full-stack development. Back-End fetches data from an external API, supports CRUD operations on a PostgreSQL database with Sequelize models. Front-End offers user-friendly routes, a controlled form for creating, editing, and deleting dogs, and a landing page with filtering and search options.",
+        description: "Built a Dog Web app with full-stack development. Back-End fetches data from an external API, supports CRUD operations on a PostgreSQL database with Sequelize models. Front-End offers user-friendly routes, a controlled form for creating, editing, and deleting dogs, and a landing page with filtering and search options.",
         image: "",
         tags: ["PostgreSQL", "Sequelize", "Express", "React JS", "Redux", "JavaScript"],
         category: "Henry App",
-        github:"https://github.com/lauti3314/PI-Dogs-main",
-        webapp:"",
+        github: "https://github.com/lauti3314/PI-Dogs-main",
+        webapp: "",
+    },
+];
+
+export const education = [
+    {
+        id: 0,
+        image: "",
+        school: "TECHNICIAN IN FOOD TECHNOLOGY, Secondary Liceo Agrícola y Enológico",
+        date: "Mar 2015 - Dec 2021",
+        desc: "Student pursuing Food Technology at the Secondary Agricultural and Enological School, with a practical focus and technical skills in food production and processing. Passionate about innovation and quality, with experience in handling specialized equipment and laboratories. Committed to sustainability and responsible development in the food and wine industry.",
+        degree: "High School Diploma - Secondary Agricultural and Enological School, Food Technology",
+    },
+    {
+        id: 1,
+        image: "",
+        school: "AMICANA INSTITUTE",
+        date: "Mar 2022 - Dec 2023",
+        desc: "Dedicated student at the American English Institute, focused on honing English language proficiency. Actively engages in all aspects of language learning, demonstrating strong skills in listening, speaking, reading, and writing. Possesses a deep understanding of American culture and idiomatic expressions, with a commitment to effective communication in diverse settings. Adept at applying language skills practically and culturally.",
+        degree: "English Language Proficiency - American English Institute",
+        grade: "B2",
+    },
+    {
+        id: 2,
+        image: "",
+        school: "EGG, BOOTCAMP",
+        date: "May 2022 - Jul 2022",
+        desc: "Completed a comprehensive coding bootcamp at EGG, where I acquired programming skills from scratch using the PSeInt language. Developed a strong foundation in logic and problem-solving, mastering the fundamentals of programming through hands-on projects and real-world applications. Demonstrated adaptability and a keen ability to learn new concepts swiftly. The experience at EGG has equipped me with practical coding knowledge and a solid understanding of programming principles.",
+        degree: "Coding Bootcamp Completion - EGG Coding Bootcamp",
+    },
+    {
+        id: 3,
+        image: "",
+        school: "SOY HENRY, BOOTCAMP",
+        date: "Jul 2022 - Feb 2023",
+        desc: "Completed an intensive bootcamp mastering JavaScript, React.js, HTML, CSS, Node.js, Sequelize, and other essential technologies. Proficient in developing dynamic web applications with a strong foundation in both front-end and back-end technologies.",
+        degree: "Full-Stack Web Development - Soy Henry Coding Bootcamp",
+    },
+    {
+        id: 4,
+        image: "",
+        school: "PROGRAMMING TECHNOLOGY, UTN",
+        date: "Aug 2023 - Jul 20224",
+        desc: "Currently pursuing a Technologist degree in Programming at UTN, developing a solid understanding of programming languages, algorithms, and software development methodologies. Acquiring practical experience in problem-solving, coding, and collaborating on diverse projects. Committed to staying abreast of emerging technologies and contributing to the ever-evolving field of programming.",
+        degree: "Technologist in Programming - UTN (in progress)",
     },
 ];

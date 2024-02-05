@@ -3,7 +3,7 @@ import { Bio } from "../../data/constants";
 import heroImag from "../../images/yoImag.jpg";
 import Typewriter from 'typewriter-effect';
 import HeroBgAnimation from "../HeroBgAnimation";
-import { HeroContainer, HeroBg, HeroLeftContainer, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle, SocialMediaIcons, SocialMediaIcon, ResumeButton, Img  } from "./HeroStyled";
+import { HeroContainer, HeroBg, HeroLeftContainer, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle, SocialMediaIcons, SocialMediaIcon, ResumeButton, Img } from "./HeroStyled";
 
 const HeroSection = () => {
     return (

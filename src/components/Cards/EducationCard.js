@@ -109,15 +109,6 @@ const Degree = styled.div`
     }
 `
 
-const Date = styled.div`
-    font-size: 12px;
-    font-weight: 400;
-    color: ${({ theme }) => theme.text_secondary + 80};
-    @media only screen and (max-width: 768px){
-        font-size: 10px;
-    }
-`
-
 const Grade = styled.div`
     font-size: 14px;
     font-weight: 500;
@@ -129,22 +120,22 @@ const Grade = styled.div`
 
 
 const EducationCard = ({ education }) => {
-return (
-    <Card>
-        <Top>
-            <Image src={education.img} />
-            <Body>
-                <Name>{education.school} </Name>
-                <Degree>{education.degree} </Degree>
-                <Grade>{education.date} </Grade>
-            </Body>
-        </Top>
-        <Grade><b>Grade: </b>{education.grade} </Grade>
-        <Description>
-            <Span>{education.desc} </Span>
-        </Description>
-    </Card>
-)
+    return (
+        <Card>
+            <Top>
+                <Image src={education.img} />
+                <Body>
+                    <Name>{education.school} </Name>
+                    <Degree>{education.degree} </Degree>
+                    <Grade>{education.date} </Grade>
+                </Body>
+            </Top>
+            <Grade><b>Grade: </b>{education.grade} </Grade>
+            <Description>
+                <Span>{education.desc} </Span>
+            </Description>
+        </Card>
+    )
 };
 
 export default EducationCard;

@@ -1,6 +1,6 @@
 import { Bio } from "../../data/constants";
 import { FooterContainer, Nav, FooterWrapper, Logo, SocialMediaIcons, NavLink, SocialMediaIcon, } from "../Footer/FooterStyled";
-//import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import React from "react";
 
 function Footer() {
@@ -20,7 +20,7 @@ function Footer() {
 
 
                 <SocialMediaIcons>
-                    <SocialMediaIcon href={Bio.linkedin} target="display"></SocialMediaIcon>
+                    <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
                 </SocialMediaIcons>
 
 

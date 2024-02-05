@@ -1,3 +1,6 @@
+import dogimg from "../images/dogApp.jpg"
+import hotelImg from "../images/hotelApp.jpg"
+
 export const Bio = {
     name: "Lautaro Tejada",
     roles: [
@@ -142,7 +145,7 @@ export const projects = [
         title: "Your Destiny",
         date: "Jan 2023 - Feb 2023",
         description: "Developed E-Commerce platform where you book hotels, pay via MercadoPago, and use a bilingual chatbot for assistance. Admins enjoy analytics on top-performing hotels, popular countries, and monthly reservations. Agile and responsive, with Google and guest login options.",
-        image: "",
+        image: hotelImg,
         tags: ["React Js", "JavaScript", "Redux", "PostgreSQL", "NodeJS", "Sequelize"],
         category: "Henry App",
         github: "https://github.com/IgnacioPerezEtc/Proyecto-Final",
@@ -153,11 +156,11 @@ export const projects = [
         title: "Dogs App",
         date: "Nov2022 - Dec 2022",
         description: "Built a Dog Web app with full-stack development. Back-End fetches data from an external API, supports CRUD operations on a PostgreSQL database with Sequelize models. Front-End offers user-friendly routes, a controlled form for creating, editing, and deleting dogs, and a landing page with filtering and search options.",
-        image: "",
+        image: dogimg,
         tags: ["PostgreSQL", "Sequelize", "Express", "React JS", "Redux", "JavaScript"],
         category: "Henry App",
         github: "https://github.com/lauti3314/PI-Dogs-main",
-        webapp: "",
+        webapp: "https://pi-dogs-main-client-dp8o9afl0-lauti3314.vercel.app/",
     },
 ];
 
@@ -169,6 +172,7 @@ export const education = [
         date: "Mar 2015 - Dec 2021",
         desc: "Student pursuing Food Technology at the Secondary Agricultural and Enological School, with a practical focus and technical skills in food production and processing. Passionate about innovation and quality, with experience in handling specialized equipment and laboratories. Committed to sustainability and responsible development in the food and wine industry.",
         degree: "High School Diploma - Secondary Agricultural and Enological School, Food Technology",
+        grade: "Complete"
     },
     {
         id: 1,
@@ -186,6 +190,7 @@ export const education = [
         date: "May 2022 - Jul 2022",
         desc: "Completed a comprehensive coding bootcamp at EGG, where I acquired programming skills from scratch using the PSeInt language. Developed a strong foundation in logic and problem-solving, mastering the fundamentals of programming through hands-on projects and real-world applications. Demonstrated adaptability and a keen ability to learn new concepts swiftly. The experience at EGG has equipped me with practical coding knowledge and a solid understanding of programming principles.",
         degree: "Coding Bootcamp Completion - EGG Coding Bootcamp",
+        grade: "Complete"
     },
     {
         id: 3,
@@ -194,6 +199,7 @@ export const education = [
         date: "Jul 2022 - Feb 2023",
         desc: "Completed an intensive bootcamp mastering JavaScript, React.js, HTML, CSS, Node.js, Sequelize, and other essential technologies. Proficient in developing dynamic web applications with a strong foundation in both front-end and back-end technologies.",
         degree: "Full-Stack Web Development - Soy Henry Coding Bootcamp",
+        grade: "Complete"
     },
     {
         id: 4,
@@ -202,5 +208,6 @@ export const education = [
         date: "Aug 2023 - Jul 20224",
         desc: "Currently pursuing a Technologist degree in Programming at UTN, developing a solid understanding of programming languages, algorithms, and software development methodologies. Acquiring practical experience in problem-solving, coding, and collaborating on diverse projects. Committed to staying abreast of emerging technologies and contributing to the ever-evolving field of programming.",
         degree: "Technologist in Programming - UTN (in progress)",
+        grade: "35%"
     },
 ];

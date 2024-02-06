@@ -137,7 +137,9 @@ export const skills = [
     },
 ];
 
-export const experiences = [];
+export const experiences = [
+
+];
 
 export const projects = [
     {

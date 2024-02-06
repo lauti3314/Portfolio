@@ -12,6 +12,7 @@ import Contact from "./components/Contact";
 import ProjectDetails from "./components/ProjectDetails";
 import Footer from "./components/Footer";
 import React from "react";
+import Experience from "./components/Experiences";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -46,6 +47,7 @@ function App() {
           <Hero />
           <Wrapper>
             <Skills />
+            <Experience />
           </Wrapper>
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>

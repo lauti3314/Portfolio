@@ -138,7 +138,16 @@ export const skills = [
 ];
 
 export const experiences = [
+    {
+        id: 0,
+        img: "",
+        role: "",
+        company: "",
+        date: "",
+        desc: "",
+        skills: [],
 
+    }
 ];
 
 export const projects = [

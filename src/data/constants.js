@@ -141,11 +141,17 @@ export const experiences = [
     {
         id: 0,
         img: "",
-        role: "",
-        company: "",
-        date: "",
-        desc: "",
-        skills: [],
+        role: "Backend developer",
+        company: "Henry Bootcamp",
+        date: "Jan 2023- Feb2023",
+        desc: "I was part of the back end in the final project of the Soy Henry bootcamp, where we created an e-commerce from scratch, including its respective database and routes, along with other colleagues. This project was recognized as one of the best in the bootcamp.",
+        skills: [
+            "React JS",
+            "Redux",
+            "NodeJS",
+            "JavaScript",
+            "PostgreSQL"
+        ],
 
     }
 ];

@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import { Snackbar } from "@mui/material";
+import emailjs from "@emailjs/browser";
 import {
   ContactTitle,
   Container,
@@ -18,6 +19,24 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_mjl0dpn",
+        "template_b4bcnon",
+        form.current,
+        "9upym69OsqIHXLXj2"
+      )
+      .then(
+        () => {
+          console.log("Muy bien");
+          setOpen(true);
+          form.current.reset();
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
 
   return (
